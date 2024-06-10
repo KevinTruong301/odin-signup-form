@@ -2,3 +2,5 @@ How do I start with a layout?
 I wanna start with the boxes
 
 How do I make the boxes(even just empty ones are ok)
+
+How do I name things

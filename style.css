@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.right{
+    height: 100vh;
+    flex: 1 1 70%;
+    background-color: black;
+}
+
+.left
+{
+    height: 100vh;
+    flex: 1 1 30%;
+    background-color: blue;
+}
