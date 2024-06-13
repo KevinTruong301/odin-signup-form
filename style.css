@@ -23,9 +23,9 @@ body{
 
 .title-box
 {
+    opacity: .7;
     margin-top: 25vh;
     height: 20vh;
-    width: 100vh;
-    opacity: 70;
-    background-color: yellow;
+    width: auto;
+    background-color: black;
 }
