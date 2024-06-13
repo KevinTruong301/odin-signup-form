@@ -1,19 +1,31 @@
 body{
     display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 
 
 .right{
     height: 100vh;
+    width:  70vh;
     flex: 1 1 70%;
-    background-color: black;
+    background-color: green;
 }
 
 .left
 {
     height: 100vh;
+    width: 30vh;
     flex: 1 1 30%;
     background-color: blue;
+}
+
+.title-box
+{
+    margin-top: 25vh;
+    height: 20vh;
+    width: 100vh;
+    opacity: 70;
+    background-color: yellow;
 }
