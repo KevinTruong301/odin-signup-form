@@ -2,5 +2,7 @@ How do I start with a layout?
 I wanna start with the boxes
 
 How do I make the boxes(even just empty ones are ok)
+Made divs. For now we don't use flex box we just set the height and width to the percent
+vh and vw we want
 
 How do I name things
