@@ -74,6 +74,7 @@ body{
     padding: 0px 0px 50px 50px;
     display: flex;
     flex-direction: column;
+   
 }
 
 .form-row
@@ -86,4 +87,9 @@ body{
 {
     display: flex;
     flex-direction: column;
+}
+
+.input-gp input
+{
+    width: 325px;
 }
