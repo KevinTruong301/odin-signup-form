@@ -68,3 +68,8 @@ body{
 
     max-width: 46ch;
 }
+
+.form
+{
+    padding: 0px 0px 50px 50px;
+}

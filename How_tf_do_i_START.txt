@@ -6,3 +6,7 @@ Made divs. For now we don't use flex box we just set the height and width to the
 vh and vw we want
 
 How do I name things
+
+How is fontsize paragraph calculated? Is this like a standard?
+
+still dont know what rem and ch are
