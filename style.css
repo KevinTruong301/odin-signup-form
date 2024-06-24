@@ -72,4 +72,18 @@ body{
 .form
 {
     padding: 0px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.input-gp
+{
+    display: flex;
+    flex-direction: column;
 }
