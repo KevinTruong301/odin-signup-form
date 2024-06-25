@@ -72,7 +72,7 @@ body{
     max-width: 46ch;
 }
 
-.form
+#form
 {
     padding: 30px 50px 30px 50px;
     display: flex;
@@ -81,7 +81,7 @@ body{
     box-shadow: 0 7px 6px rgb(0, 0, 0, .1);
 }
 
-.form h2
+#form h2
 {
     font-size: var(--fontSize-paragraph);
     font-weight: 500;
@@ -128,4 +128,18 @@ body{
 .input-gp p
 {
     margin-top: 5px;
+}
+
+button[type="submit"]
+{
+    width: 300px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #596D48;
 }
