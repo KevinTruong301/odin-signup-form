@@ -2,7 +2,11 @@
     --fontSize-paragraph: calc(1rem + 0.5vw);
 }
 
-
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
 
 body{
     display: flex;
@@ -10,12 +14,13 @@ body{
     margin: 0;
     min-width: 1440px;
     min-height: 100vh;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: rgb(248, 248, 248);
 }
 
 .right{
     flex: 1 1 auto;
 
-    background-color: gray;
 }
 
 .left
@@ -62,8 +67,6 @@ body{
 {
     font-size: var(--fontSize-paragraph);
     font-weight: 500;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
     margin: 8% 10% 50px 50px;
 
     max-width: 46ch;
@@ -71,25 +74,58 @@ body{
 
 .form
 {
-    padding: 0px 0px 50px 50px;
+    padding: 30px 50px 30px 50px;
     display: flex;
     flex-direction: column;
-   
+    background-color: white;
+    box-shadow: 0 7px 6px rgb(0, 0, 0, .1);
+}
+
+.form h2
+{
+    font-size: var(--fontSize-paragraph);
+    font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .form-row
 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 25px;
+    gap: 80px;
 }
 
 .input-gp
 {
     display: flex;
     flex-direction: column;
+    font: inherit;
 }
 
 .input-gp input
 {
     width: 325px;
+    height: 40px; /* also serves as a max height I think */
+    font-size: 1.2rem;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: #dbdbdb solid 1px;
+    box-sizing: border-box;
+    outline: none;
+    appearance: none;
+}
+
+.input-gp label
+{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #292929;
+}
+
+.input-gp p
+{
+    margin-top: 5px;
 }
