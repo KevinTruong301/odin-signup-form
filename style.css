@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    font: inherit;
+    
 }
 
 body{
@@ -67,9 +67,14 @@ body{
 {
     font-size: var(--fontSize-paragraph);
     font-weight: 500;
-    margin: 8% 10% 50px 50px;
+    margin: 15% 10% 50px 50px;
 
     max-width: 46ch;
+}
+
+.caption p
+{
+    margin-top: 30px;
 }
 
 #form
@@ -105,9 +110,10 @@ body{
 
 .input-gp input
 {
+    font: inherit;
+    font-size: 1.2rem;
     width: 325px;
     height: 40px; /* also serves as a max height I think */
-    font-size: 1.2rem;
     padding: 8px 10px;
     margin-top: 5px;
     border-radius: 6px;
@@ -130,6 +136,11 @@ body{
     margin-top: 5px;
 }
 
+.input-gp label span
+{
+    color: red;
+}
+
 button[type="submit"]
 {
     width: 300px;
@@ -142,4 +153,18 @@ button[type="submit"]
     border-radius: 6px;
     color: white;
     background-color: #596D48;
+}
+
+.login-text
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.login-text a
+{
+    color: #596D48;
+    text-decoration: none;
 }
