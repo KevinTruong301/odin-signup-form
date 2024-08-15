@@ -1,6 +1,7 @@
 :root{
     --fontSize-paragraph: calc(1rem + 0.5vw);
     --color-invalid: #f13636;
+    --color-valid: green;
 }
 
 * {
@@ -126,6 +127,14 @@ input.clicked + .input-guide,
 input:focus:valid + .input-guide{
     transform: scaleY(1);
 
+}
+
+.input-gp > input[type="password"].matched{
+    border: 2px solid var(--color-valid);
+}
+
+.input-gp > input[type="password"].notMatched{
+    border: 2px solid var(--color-invalid);
 }
 
 .input-gp input
