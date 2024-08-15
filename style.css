@@ -185,6 +185,17 @@ button[type="submit"]
         height: 30svh;
     }
 
+    .right{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .caption
+    {
+        margin: 3% 0 5% 0;
+    }
+
     .title-box{
         margin-top: 0vh;
         height: 80px;
