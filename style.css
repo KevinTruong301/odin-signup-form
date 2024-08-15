@@ -41,13 +41,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
     padding: 20px;
-    
 }
 
 .title-logo
 {
     height: 100%;
+
 }
 
 @font-face {
@@ -186,5 +187,10 @@ button[type="submit"]
 
     .title-box{
         margin-top: 0vh;
+        height: 80px;
+    }
+    .title-text
+    {
+        font-size: 4rem;
     }
 }
