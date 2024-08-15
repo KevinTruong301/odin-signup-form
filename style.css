@@ -1,5 +1,6 @@
 :root{
     --fontSize-paragraph: calc(1rem + 0.5vw);
+    --color-invalid: #f13636;
 }
 
 * {
@@ -108,6 +109,25 @@ body{
     font: inherit;
 }
 
+input + .input-guide
+{
+    margin-top: 5px;
+    transform: scaleY(0);
+    transition: transform 0.2s ease-in-out;
+    transform-origin: top;
+
+}
+
+input:user-invalid + .input-guide{
+    color: var(--color-invalid);
+}
+
+input.clicked + .input-guide,
+input:focus:valid + .input-guide{
+    transform: scaleY(1);
+
+}
+
 .input-gp input
 {
     font: inherit;
@@ -203,5 +223,16 @@ button[type="submit"]
     .title-text
     {
         font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .form-row{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .input-gp{
+        align-items: baseline;
     }
 }
