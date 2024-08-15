@@ -137,6 +137,14 @@ input:focus:valid + .input-guide{
     border: 2px solid var(--color-invalid);
 }
 
+input:user-invalid + .input-guide{
+    color: var(--color-invalid);
+}
+
+.input-gp > input:user-invalid{
+    border: 2px solid var(--color-invalid);
+}
+
 .input-gp input
 {
     font: inherit;

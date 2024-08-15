@@ -23,19 +23,20 @@
             <div class="form-row">
                 <div class="input-gp">
                     <label for="first_name">FIRST NAME <span aria-label="required"> *</span> </label>
-                    <input type="text" id="first_name" placeholder="Tom">
+                    <input type="text" id="first_name" placeholder="Tom" minlength="1" maxlength="40" required>
                     <div class="input-guide">Please enter your first name</div>
                 </div>
                 <div class="input-gp">
                     <label for="last_name">LAST NAME <span aria-label="required"> *</span> </label>
-                    <input type="text" id="last_name" placeholder="Holland">
+                    <input type="text" id="last_name" placeholder="Holland" minlength="1" maxlength="40" required>
                     <div class="input-guide">Please enter your last name</div>
                 </div>
             </div>
             <div class="form-row">
                 <div class="input-gp">
                     <label for="email">EMAIL <span aria-label="required"> *</span> </label>
-                    <input type="text" id="email">
+                    <input type="email" id="email" required>
+                    <div class="input-guide">Please enter a valid email address</div>
                 </div>
                 <div class="input-gp">
                     <label for="phone_number">PHONE NUMBER</label>
