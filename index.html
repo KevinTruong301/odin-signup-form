@@ -23,12 +23,12 @@
             <div class="form-row">
                 <div class="input-gp">
                     <label for="first_name">FIRST NAME <span aria-label="required"> *</span> </label>
-                    <input type="text" id="first_name" placeholder="Tom" minlength="1" maxlength="40" required>
+                    <input type="text" id="first_name" placeholder="Tom" minlength="1" maxlength="40" pattern="[a-zA-Z ]+" required>
                     <div class="input-guide">Please enter your first name</div>
                 </div>
                 <div class="input-gp">
                     <label for="last_name">LAST NAME <span aria-label="required"> *</span> </label>
-                    <input type="text" id="last_name" placeholder="Holland" minlength="1" maxlength="40" required>
+                    <input type="text" id="last_name" placeholder="Holland" minlength="1" maxlength="40" pattern="[a-zA-Z ]+" required>
                     <div class="input-guide">Please enter your last name</div>
                 </div>
             </div>
@@ -45,12 +45,13 @@
             </div>
             <div class="form-row">
                 <div class="input-gp">
-                    <label for="password">PASSWORD <span aria-label="required"> *</span> </label>
-                    <input type="password" id="pwd" name="pwd">
+                    <label for="pwd">PASSWORD <span aria-label="required"> *</span> </label>
+                    <input type="password" id="pwd" name="pwd" required>
+                    <div class="input-guide">Please enter password</div>
                 </div>
                 <div class="input-gp">
-                    <label for="confirm_password">CONFRIM PASSWORD <span aria-label="required"> *</span> </label>
-                    <input type="password" id="cfm-pwd" name="cfm-pwd">
+                    <label for="cfm-pwd">CONFRIM PASSWORD <span aria-label="required"> *</span> </label>
+                    <input type="password" id="cfm-pwd" name="cfm-pwd" required>
                     <div class="input-guide">Please re-enter password</div>
                 </div>
             </div>
